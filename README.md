@@ -68,3 +68,5 @@ ETH:0x98573ddb33cdddce480c3bc1f9279ccd88ca1e93
 ### 欢迎为作者付一碗面钱
 
 ![微信](wx_pay.JPG) ![支付宝](IMG_1177.jpg)  
+
+请支持原作者

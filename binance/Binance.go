@@ -524,7 +524,7 @@ func (bn *Binance) GetKlineRecords(currency CurrencyPair, period KlinePeriod, si
 func (bn *Binance) GetTrades(currencyPair CurrencyPair, since int64) ([]Trade, error) {
 	param := url.Values{}
 	param.Set("symbol", currencyPair.ToSymbol(""))
-	param.Set("limit", "500")
+	param.Set("limit", "1000")
 	if since > 0 {
 		param.Set("fromId", strconv.Itoa(int(since)))
 	}
